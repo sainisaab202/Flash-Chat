@@ -1,4 +1,4 @@
-![](screenshots/app.gif)
+![](screenshots/user1.gif)	![](screenshots/userB.gif)
 
 # Flash-Chat
 

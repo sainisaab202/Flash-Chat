@@ -17,7 +17,6 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var imgRight: UIImageView!
     @IBOutlet weak var imgLeft: UIImageView!
     @IBOutlet weak var viewSpacing: UIView!
-    @IBOutlet weak var stackView: UIStackView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,13 +30,6 @@ class MessageCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    func putRightSpacing(){
-        
-        stackView.removeArrangedSubview(viewSpacing)
-        stackView.insertArrangedSubview(viewSpacing, at: stackView.subviews.count-1)
-        
     }
     
 }

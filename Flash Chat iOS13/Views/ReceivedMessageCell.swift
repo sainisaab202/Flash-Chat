@@ -10,9 +10,17 @@ import UIKit
 
 class ReceivedMessageCell: UITableViewCell {
 
+    @IBOutlet weak var imgSender: UIImageView!
+    @IBOutlet weak var viewMessageBubble: UIView!
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var viewSpacing: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        viewMessageBubble.layer.cornerRadius = viewMessageBubble.frame.size.height / 6
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

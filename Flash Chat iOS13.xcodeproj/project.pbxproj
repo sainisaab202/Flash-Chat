@@ -24,6 +24,8 @@
 		F35CD7122BAB69C600403536 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35CD7112BAB69C600403536 /* MessageCell.xib */; };
 		F35CD7132BAB69C600403536 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35CD7102BAB69C600403536 /* MessageCell.swift */; };
 		F35CD7162BACB20500403536 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F35CD7152BACB20500403536 /* IQKeyboardManagerSwift */; };
+		F3FDE7282BAE16D200FCEB49 /* ReceivedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FDE7272BAE16D200FCEB49 /* ReceivedMessageCell.xib */; };
+		F3FDE7292BAE16D200FCEB49 /* ReceivedMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDE7262BAE16D200FCEB49 /* ReceivedMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		F35CD70E2BAB655100403536 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F35CD7102BAB69C600403536 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		F35CD7112BAB69C600403536 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		F3FDE7262BAE16D200FCEB49 /* ReceivedMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedMessageCell.swift; sourceTree = "<group>"; };
+		F3FDE7272BAE16D200FCEB49 /* ReceivedMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceivedMessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
 				F35CD7102BAB69C600403536 /* MessageCell.swift */,
 				F35CD7112BAB69C600403536 /* MessageCell.xib */,
+				F3FDE7262BAE16D200FCEB49 /* ReceivedMessageCell.swift */,
+				F3FDE7272BAE16D200FCEB49 /* ReceivedMessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FDE7282BAE16D200FCEB49 /* ReceivedMessageCell.xib in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				F35CD7122BAB69C600403536 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FDE7292BAE16D200FCEB49 /* ReceivedMessageCell.swift in Sources */,
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
